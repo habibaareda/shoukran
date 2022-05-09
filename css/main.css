@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background: white;
+    padding: 55px 0px;
+}
+
+#header .container .navbar {
+    background: white;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#header .container .container-fluid .img-fluid{
+    width: 50%;
+}
+
+#header .container .navbar img{
+    width: 15%;
+    padding: 10px 5px;
+}
+#header .container .navbar {
+    padding:  0px 55px;
+}
+#header .container .navbar ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 0px 10px;
+}
+
+#header .container .navbar ul li .active {
+    color:#FF8C00;
+}
+
+#header .container .navbar ul li a:hover {
+    color: #FF8C00;
+}
+
+#header .container .navbar .btn{
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    border: 3px solid #FF8C00;
+    width: 110px;
+}
+#header .container .navbar .btn:hover{
+    background-color: #FF8C00;
+    color: white;
+}
+
+#main{
+    height: auto;
+    background-color: white;
+    position: relative;
+}
+#main .container .row .div1{
+margin-top: 80px;
+padding-bottom: 50px;
+}
+#main .container .row .div1 h1{
+    font-weight: bold;
+}
+#main .container .row .div1 p{
+    font-size: 20px;
+    padding: 20px 0px;
+    color: gray;
+}
+#main .container .row .div1 a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: #FF8C00;
+    color: white;
+    width: 140px;
+    padding: 10px 10px;
+}
+#main .container .row .div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main .container .row .div2 img{
+    width:25%;
+    position: absolute;
+    animation: anim 6s infinite;
+    
+}
+
+#Clients{
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:  rgba(225, 225, 225, 0.3);
+}
+#Clients .container .row img{
+    width: 50%;
+}
+#Clients .container .row .div{
+    padding: 20px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+#Clients .container .row .div:hover{
+    filter: grayscale(0%);
+    transition: all 1s ease-in;
+}
+#using{
+    height: auto;
+    background: white;
+    position: relative;
+    padding-bottom: 100px;
+}
+#using .container .top{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: 	#4682B4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#using .container .top h2::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
+#using .container .top h2::after{
+    content: "";
+    width: 5%;
+    height: 5px;
+    background-color: #FF8C00;
+    position: absolute;
+    top: 14.5%;
+    left: 47.5%;
+}
+#using .container .row .right{
+    padding-top: 20px;
+}
+#using .container .row .right p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#using .container .row .right a{
+    text-decoration: none;
+    color: #FF8C00;
+    padding: 10px 15px;
+    border: 2px solid #FF8C00;
+    border-radius: 10px ;
+}
+
+#using .container .row .right a:hover{
+    background-color: #FF8C00;
+    color: white;
+}
+
+
+#about{
+    height: auto;
+    background: white;
+    position: relative;
+    padding-bottom: 30px;
+}
+#about .container .top{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: 	#4682B4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#about .container .top h2::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+#about .container .top h2::after{
+    content: "";
+    width: 5%;
+    height: 5px;
+    background-color: #FF8C00;
+    position: absolute;
+    top: 19.5%;
+    left: 47.5%;
+}
+
+#about .container .row{
+padding-top: 30px;
+}
+#about .container .row i{
+    color: #FF8C00;
+}
+
+#about .container .row .right p{
+    padding: 10px 0px;
+}
+#about .container .row .right a{
+    text-decoration: none;
+    color: #FF8C00;
+    padding: 10px 50px;
+    border: 2px solid #FF8C00;
+    border-radius: 8px ;
+}
+
+#about .container .row .right a:hover{
+    background-color: #FF8C00;
+    color: white;
+}
+
+
+#CATEGORIES{
+    height: auto;
+    background:  rgba(225, 225, 225, 0.3);
+    position: relative;
+}
+#CATEGORIES .container .top{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: 	#4682B4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#CATEGORIES .container .top h2::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 7%;
+    left: 45%;
+}
+
+#CATEGORIES .container .top h2::after{
+    content: "";
+    width: 5%;
+    height: 5px;
+    background-color: #FF8C00;
+    position: absolute;
+    top: 6.8%;
+    left: 47.5%;
+}
+#CATEGORIES .container .row div{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+
+#CATEGORIES .container .row .box{
+    width: 350px;
+    height: 300px;
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    transition: transform 02s;
+}
+
+#CATEGORIES .container .row .box:hover{
+    transform: scale(1.1);
+}
+#CATEGORIES .container .row .box h4{
+    width: 100%;
+    color: white;
+    height: auto;
+    padding: 10px 0px;
+    background: #FF8C00;
+    position: absolute;
+    top: 25%;
+}
+
+
+#brand{
+    height: auto;
+    background:  rgba(225, 225, 225, 0.4);
+    position: relative;
+    padding-bottom: 20px;
+}
+#brand .container .top h2{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: 	#4682B4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#brand .container .top p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#brand .container .top h2::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 17%;
+    left: 45%;
+}
+
+#brand .container .top h2::after{
+    content: "";
+    width: 5%;
+    height: 5px;
+    background-color: #FF8C00;
+    position: absolute;
+    top: 16.5%;
+    left: 47.5%;
+}
+
+#brand .container .row div{
+    text-align: center;
+    margin-top: 10px
+}
+
+
+#CONTACT{
+    height: auto;
+    background: white;
+    position: relative;
+    padding-bottom: 90px;
+}
+#CONTACT .container .top h2{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: 	#4682B4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#CONTACT .container .top h2::before{
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+#CONTACT .container .top h2::after{
+    content: "";
+    width: 5%;
+    height: 5px;
+    background-color: #FF8C00;
+    position: absolute;
+    top: 9.6%;
+    left: 47.5%;
+}
+
+#CONTACT .container .row img{
+    width: 100%;
+    height: 100%;
+}
+
+#CONTACT .container .row .register{
+    margin-top: 5px;
+    border-top: 2px solid #FF8C00;
+    border-bottom: 2px solid #FF8C00;
+    box-shadow: 0px 0px 10px 10px #dcdcdc;
+
+}
+
+#CONTACT .container .register .btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background: #FF8C00;
+    border: 0px solid #FF8C00;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#CONTACT .container .register .btn:hover {
+    background: #4682B4;
+}
+
+#CONTACT .container .register .div,
+#CONTACT .container .register .div label{
+    padding: 10px 3px;
+}
+
+
+
+#social{
+    height: 40vh;
+    background: white;
+    display: inline;
+}
+
+#social .container .top h6{
+padding: 20px 0px;
+color: #4682B4;
+}
+
+#social .container .row {
+display: block;
+padding-bottom: 70px;
+padding-left: 10px;
+
+}
+#social .container .row a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #FF8C00;
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+padding: 8px 8px;
+}
+
+#social .container .row a:hover{
+    background: #4682B4;
+}
+
+#footer{
+    background:#315e82;
+    color: white;
+}
+#footer .container .row{
+    padding: 20px 0px;
+}
+
+@keyframes anim {
+    25% {
+        top: 0%;
+    }
+
+    50% {
+        top: 20%;
+    }
+
+    75% {
+        top: 0%;
+    }
+
+    100% {
+        top: 20%;
+    }
+}
+
+@media (max-width:990px){
+    #header{
+        height: 15vh;
+    }
+    #header .container .navbar img{
+        width: 25%;
+
+    }
+    #header .container .navbar {
+        padding: 0px 5px;
+    }
+    #main .container .row .div1{
+        padding-top: 190px;
+        }
+
+     
+        #using .container .top h2::before{       
+            width: 19%;
+           top: 8.5%;
+           left: 40%;
+       }
+       
+       #using .container .top h2::after{
+           height: 4px;
+           width: 8%;
+           top: 8.3%;
+           left: 45.5%;
+       }
+
+       #about .container .top h2::before{
+           width:20% ;
+           top: 10%;
+           left: 40%;
+       }
+       
+       #about .container .top h2::after{
+           width: 8%;
+           top: 9.5%;
+           left: 45.5%;
+       }
+
+
+       #CATEGORIES .container .row .box{
+           width: 300px;
+           text-align: center;
+       }
+
+       #CATEGORIES .container .top h2::before{
+           width: 20%;
+           top:3.5%;
+           left: 40%;
+       }
+       
+       #CATEGORIES .container .top h2::after{
+           width: 9%;
+           top: 3.4%;
+           left: 45%;
+       }
+
+       #brand .container .top h2::before{
+           width: 20%;
+           top: 8.8%;
+           left: 40%;
+       }
+       
+       #brand .container .top h2::after{
+           width: 9%;
+           top: 8.4%;
+           left: 45%;
+       }
+
+       #CONTACT .container .top h2::before{
+           width: 20%;
+           top: 6%;
+           left: 40%;
+       }
+       
+       #CONTACT .container .top h2::after{
+           width: 9%;
+           top: 5.8%;
+           left: 45%;
+       }
+}
+@media (max-width:600px) {
+    #header .container .navbar img{
+        width: 40%;
+
+    }
+    #header .container .navbar {
+        padding: 0px 10px;
+    }
+    #main .container .row .div1{
+        padding-top: 250px;
+        padding-bottom: 50px;
+        }
+     #main .container .row .div2 img{
+            width: 45%;
+            left: 30%;
+        }
+    #using .container .top{
+            font-size: 35px;
+            margin-bottom: 35px;
+        }
+        
+        #using .container .top h2::before{       
+             width: 19%;
+            top: 11%;
+            left: 40%;
+        }
+        
+        #using .container .top h2::after{
+            height: 4px;
+            width: 8%;
+            top: 10.8%;
+            left: 45.5%;
+        }
+
+        #about .container .top h2::before{
+            width:20% ;
+            top: 10%;
+            left: 40%;
+        }
+        
+        #about .container .top h2::after{
+            width: 8%;
+            top: 9.5%;
+            left: 45.5%;
+        }
+
+
+        #CATEGORIES .container .row .box{
+            width: 300px;
+            text-align: center;
+        }
+
+        #CATEGORIES .container .top h2::before{
+            width: 20%;
+            top: 2%;
+            left: 40%;
+        }
+        
+        #CATEGORIES .container .top h2::after{
+            width: 9%;
+            top: 1.9%;
+            left: 45%;
+        }
+
+        #brand .container .top h2::before{
+            width: 20%;
+            top: 7%;
+            left: 40%;
+        }
+        
+        #brand .container .top h2::after{
+            width: 9%;
+            top: 6.8%;
+            left: 45%;
+        }
+
+        #CONTACT .container .top h2::before{
+            width: 20%;
+            top: 6%;
+            left: 40%;
+        }
+        
+        #CONTACT .container .top h2::after{
+            width: 9%;
+            top: 5.8%;
+            left: 45%;
+        }
+}
